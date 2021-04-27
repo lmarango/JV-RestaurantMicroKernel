@@ -1,7 +1,7 @@
 package co.unicauca.microkernel.common.infra;
 
 /**
- *
+ * 
  * @author Luis Arango
  */
 public class Parameter {
