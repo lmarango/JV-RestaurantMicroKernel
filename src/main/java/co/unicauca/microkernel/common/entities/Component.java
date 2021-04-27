@@ -49,43 +49,75 @@ public class Component {
     }
 //</editor-fold>
     //<editor-fold defaultstate="collapsed" desc="Getters">
+    /**
+     * Obtiene el identificador del componente
+     * @return int compID
+     */
     public int getCompId() {
         return compId;
     }
-    
+    /**
+     * Obtiene el nombre del componente
+     * @return Strign compName
+     */
     public String getCompName() {
         return compName;
     }
-    
+    /**
+     * Obtiene el precio del componente
+     * @return int compPrice
+     */
     public int getCompPrice() {
         return compPrice;
     }
-    
+    /**
+     * Obtiene el tipo del componente
+     * @return String compType
+     */
     public String getCompType() {
         return compType;
     }
-    
+    /**
+     * Obtiene la imagen del componente
+     * @return byte compImage
+     */
     public byte[] getCompImage() {
         return CompImage;
     }
 //</editor-fold>
     //<editor-fold defaultstate="collapsed" desc="Setters">
+    /**
+     * Modifica el identificador del componente
+     * @param compId nuevo compID
+     */
     public void setCompId(int compId) {
         this.compId = compId;
     }
-    
+    /**
+     * MOdifica el nombre del componente
+     * @param compName  nuevo compName
+     */
     public void setCompName(String compName) {
         this.compName = compName;
     }
-    
+    /**
+     * Modifica el precio del componente
+     * @param compPrice nuevo compPrice
+     */
     public void setCompPrice(int compPrice) {
         this.compPrice = compPrice;
     }
-    
+    /**
+     * Modifica el tipo del componente
+     * @param compType nuevo compType
+     */
     public void setCompType(String compType) {
         this.compType = compType;
     }
-    
+    /**
+     * Modifica la imagen del componente
+     * @param CompImage nueva compImage
+     */
     public void setCompImage(byte[] CompImage) {
         this.CompImage = CompImage;
     }
