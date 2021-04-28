@@ -33,27 +33,47 @@ public class Delivery {
     }
 //</editor-fold>
     //<editor-fold defaultstate="collapsed" desc="Getters">
+    /**
+     * Obtiene el codigo del envío
+     * @return String delCode
+     */
     public String getDelCode() {
         return delCode;
     }
-    
+    /**
+     * Obtiene la distancia del envio
+     * @return int delDistance
+     */
     public int getDelDistance() {
         return delDistance;
     }
-    
+    /**
+     * Obtiene precio del envio 
+     * @return int delPrice
+     */
     public int getDelPrice() {
         return delPrice;
     }
 //</editor-fold>
     //<editor-fold defaultstate="collapsed" desc="Setters">
+    /**
+     * Modifica el código del envío
+     * @param delCode nuevo código de envío
+     */
     public void setDelCode(String delCode) {
         this.delCode = delCode;
     }
-    
+    /**
+     * Modifica la distancia del envío 
+     * @param delDistance nueva distancia de envío
+     */
     public void setDelDistance(int delDistance) {
         this.delDistance = delDistance;
     }
-    
+    /**
+     * Modifica el precio del envio 
+     * @param delPrice Nuevo precio de envío
+     */
     public void setDelPrice(int delPrice) {
         this.delPrice = delPrice;
     }
